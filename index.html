@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="MashhoodRajput">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <title>HTML CSS and JAVASCRIPT CODELEANERS</title>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/web.css">
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/raj.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+    <script src="https://kit.fontawesome.com/9f9645f4a1.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("Oq6dejA90MNAfDkH-");
+})();
+</script>
+<!--
+-->
+  </head>
+
+<body>
+
+  <!-- Sub Header -->
+  <div class="sub-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-sm-8">
+          <div class="left-content">
+            <p>This is an educational <em>HTML CSS</em> template by JsCodeLearner's.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+          <div class="right-icons">
+            <ul>
+              <li><a href="https://web.facebook.com/MashhoodRajput"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/MashhoodRajpoot"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://github.com/MashhoodRajput"><i class="fa fa-github"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/mashhoodrajput/"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <nav class="main-nav">
+                      <!-- ***** Logo Start ***** -->
+                      <a href="index.html" class="logo myLogo" style="color:lightblue;">
+                          JS CodeLeaner's</a>
+                      <!-- ***** Logo End ***** -->
+                      <!-- ***** Menu Start ***** -->
+                      <ul class="nav"  id='navbar'>
+                          <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                          <li><a href="meetings.html">Courses</a></li>
+                          <li class="scroll-to-section"><a href="#apply">About me</a></li>
+                          <li class="has-sub">
+                              <a href="javascript:void(0)">Pages</a>
+                              <ul class="sub-menu filters" id="submenu">
+                                <li data-filter=".soon" data-soon>  <a onclick="soonFunction()" href="#">Upcoming Courses </a></li>
+                                  <!-- <li><a href="meeting-details.html"></a>df</li> -->
+                              </ul>
+                          </li>
+                          <li class="scroll-to-section"><a href="#courses">TechAriticals</a></li>
+                          <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
+                      </ul>
+                      <a class='menu-trigger'>
+                          <span>Menu</span>
+                      </a>
+                      <!-- ***** Menu End ***** -->
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <!-- ***** Main Banner Area Start ***** -->
+  <section class="section main-banner" id="top" data-section="section1">
+      <video autoplay muted loop id="bg-video">
+          <source src="assets/images/course-video.mp4" type="video/mp4" />
+      </video>
+
+      <div class="video-overlay header-text">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="caption">
+              <h6>HI There!</h6>
+              <h2 class="Welcome" data-welcome>Welcome to JS(CODE_LEARNER'S)</h2>
+              <p>It's so good to have you here! <a rel="nofollow" href="https://www.youtube.com/c/MRVideoParty" target="_blank">MR Video Party</a>.
+                <br>
+                <div class="wrapper">
+                <div class="staticText">THIS WEBSITE FOR, </div>
+                <span data-text></span>
+                 </div>
+                 <div class='dimText'>Confused on which course to take? I have got you covered. Browse courses and find out the best course for you. Its free!&#128512;</div>
+                 <br>
+              <div class="main-button-red">
+                  <div class="scroll-to-section scrolltosection"><a href="#contact">Join Us Now!</a> </div>
+                  <a rel="nofollow" href="https://www.youtube.com/c/MRVideoParty?sub_confirmation = 1" target="_blank">SUBSCRIBE! <i class="fa-solid fa-bell fa-shake bellemoji"></i></a>
+              </div>
+          </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </section>
+  <!-- ***** Main Banner Area End ***** -->
+
+  <section class="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-service-item owl-carousel">
+            <div class="item">
+              <div class="icon">
+                <img src="assets/images/service-icon-01.png" alt="">
+              </div>
+              <div class="down-content">
+                <h4 class="h4clolr">Best courses</h4>
+                <p>Premium courses to help you step up your front-end game in short order. I
+                  have a number of courses available covering a wide range of CSS goodness.
+                </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="assets/images/service-icon-02.png" alt="">
+              </div>
+              <div class="down-content">
+                <h4 class="h4clolr">Best articles</h4>
+                <p>While creating my YouTube videos, I come across a lot of fun snippets of information and little known CSS properties that aren't really worth building full videos about.</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="assets/images/service-icon-03.png" alt="">
+              </div>
+              <div class="down-content">
+                <h4 class="h4clolr">Source Code</h4>
+                <p>I have a number of source Code available for a wide range of projecets. Check out my courses page to see them all..</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="assets/images/service-icon-02.png" alt="">
+              </div>
+              <div class="down-content">
+                <h4 class="h4clolr">JavaScript Courses</h4>
+                <p>Being a coder, I can understand the pain and excitement while finding a bug or error in a code. This course contains some of the most famous or common errors in the javascript..</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="upcoming-meetings" id="meetings">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h2>what do we offer</h2>
+          </div>
+        </div>
+        <div class="col-lg-4">
+         <div class="col">
+    <h3 class="titulo"><span>Skills</span></h3>
+    <ul class="skill">
+      <li><span class="blueline html"></span><em>HTML</em></li>
+      <li><span class="redline css"></span><em>CSS</em></li>
+      <li><span class="yellowline python"></span><em>python</em></li>
+      <li><span class="greenline javascript"></span><em>Javascript</em></li>
+      <li><span class="darkblueline jquery"></span><em>jQuery</em></li>
+    </ul>
+  </div>
+
+        </div>
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="meeting-item">
+                <div class="down-content up-content">
+                  <div class="date">
+                    <span> <i class="fa-solid fa-cake-candles fa-fade"></i></span>
+                  </div>
+                  <h4>University Important Topics</h4>
+                  <p>We also covers all the important topics as per university to help students to understant topic easily.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="meeting-item thumb">
+                <div class="down-content up-content">
+                  <div class="date">
+                     <span> <i class="fa-solid fa-heart fa-beat" style="--fa-beat-scale: 2.0;"></i></span>
+                  </div>
+                  <h4>WEB DEVELOPER</h4>
+                  <p>We make tutorials of all the Programming and Scripting languages to help for free.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="meeting-item">
+                <div class="down-content up-content">
+                  <div class="date">
+                   <span><i class="fa-solid fa-envelope fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; --fa-bounce-rebound: 0;" ></i></span>
+                  </div>
+                 <h4>TECHNICAL ARTICALS</h4>
+                  <p>We write articles on current and Interesting Technicals Topic to spread knowledge and sometimes on Social Causes too.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="meeting-item">
+                <div class="down-content up-content">
+                  <div class="date">
+                   <span><i class="fa-solid fa-code fa-flip" style="--fa-animation-duration: 3s;" ></i></span>
+                  </div>
+                  <h4>CODE</h4>
+                  <p>Thousands of free tutorials and online courses to help you learn software development from mobile to web applications and everything in between. Join our community to improve your coding skills and workflow. What wouuld you like to learn?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="apply-now" id="apply">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="item">
+                <h1 class="youtubeContact">YouTube</h1>
+                <p class="youtubeContactP"><b>Weekly front-end web development & design tips, tricks, and tutorials.</b> With a focus on HTML & CSS, along with a splash of JS, my videos focus on understanding <b>fundamental concepts</b>, others explore <b>little known or often misused CSS properties</b>, and there are long series that explore taking everything and <b>building out actual pages</b>.</p>
+                <div class="main-button-red">
+                  <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+              </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="item AboutmeMyPic">
+                <div class="quotes">
+                <i class="quote-left fa fa-quote-left"></i>
+              </div>
+                <h3 class="indiscreet">Don't look at me I'm indiscreet</h3>
+                <div class="myPic">
+               <img src="assets/images/me.jpg" alt="" >
+              </div>
+                <span>MashhoodRajput</span>
+               <div class="main-button-yellow">
+                  <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+                  <i class="quote-left fa fa-quote-right"></i>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="accordions is-first-expanded">
+            <article class="accordion">
+                <div class="accordion-head">
+                    <span>About JsCodeLearner's HTML Template</span>
+                    <span class="icon">
+                        <i class="icon fa fa-chevron-right"></i>
+                    </span>
+                </div>
+                <div class="accordion-body">
+                    <div class="content">
+                        <p>If you want to get the latest collection of HTML CSS templates for your websites, you may visit <a rel="nofollow" href="https://github.com/MashhoodRajput" target="_blank">Too CSS website</a>. If you need a working contact form script, please visit <a href="https://github.com/MashhoodRajput" target="_parent">our contact page</a> for more info.</p>
+                    </div>
+                </div>
+            </article>
+            <article class="accordion">
+                <div class="accordion-head">
+                    <span>HTML CSS Bootstrap Layout</span>
+                    <span class="icon">
+                        <i class="icon fa fa-chevron-right"></i>
+                    </span>
+                </div>
+                <div class="accordion-body">
+                    <div class="content">
+                        <p>making off where the HTML & CSS Crash course leaves off, this course takes you from the basics of HTML & CSS and dives in deep.
+
+                          It covers CSS in-depth, from general styling, typography, and layouts using flexbox and grid..</p>
+                    </div>
+                </div>
+            </article>
+            <article class="accordion">
+                <div class="accordion-head">
+                    <span>Please tell your friends</span>
+                    <span class="icon">
+                        <i class="icon fa fa-chevron-right"></i>
+                    </span>
+                </div>
+                <div class="accordion-body">
+                    <div class="content">
+                        <p>If you never want to miss out on my YouTube videos or articles here on my site, subscribe to my newsletter!
+                      </p>
+                    </div>
+                </div>
+            </article>
+            <article class="accordion last-accordion">
+                <div class="accordion-head">
+                    <span>Share this to your colleagues</span>
+                    <span class="icon">
+                        <i class="icon fa fa-chevron-right"></i>
+                    </span>
+                </div>
+                <div class="accordion-body">
+                    <div class="content">
+                        <p>Please share this important resource with your colleagues and be sure to check back often.</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="our-courses" id="courses">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h2>Our Popular Courses</h2>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="owl-courses-item owl-carousel">
+            <div class="item">
+              <img src="assets/images/Game.png" alt="Course One">
+              <div class="down-content">
+                <h4>Ludo Game</h4>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span>$160</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/images/clock.png" alt="Course Two">
+              <div class="down-content">
+                <h4>Analog Clock</h4>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span>$180</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/images/AgeCalclulator.png" alt="">
+              <div class="down-content">
+                <h4>Age Calculator</h4>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span>$140</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/images/Notebook.png" alt="">
+              <div class="down-content">
+                <h4>Note Book</h4>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span>$120</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/images/calculator.png" alt="">
+              <div class="down-content">
+                <h4>Scientific Calculator</h4>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span>$250</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/images/clock.png" alt="">
+              <div class="down-content">
+                <h4>Clock</h4>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span>$270</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/images/onlineadmission.png" alt="">
+              <div class="down-content">
+                <h4>University Online Addmission</h4>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span>$340</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/images/wavy.png" alt="">
+              <div class="down-content">
+                <h4>Wavy Text Effect</h4>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span>$360</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/images/applyonlineform.png" alt="">
+              <div class="down-content">
+                <h4>Apply Online Form</h4>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span>$400</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/images/ecommerce.png" alt="">
+              <div class="down-content">
+                <h4>Python Ecommerce Website</h4>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span>$430</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/images/video-item-bg.png" alt="">
+              <div class="down-content">
+                <h4>Black Analog clock</h4>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span>$480</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/images/clock.png" alt="">
+              <div class="down-content">
+                <h4>clock</h4>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-8">
+                      <ul>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                       <span>$560</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="our-facts">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2>A Few Facts About Our Site</h2>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-12">
+                  <div class="count-area-content percentage">
+                    <div class="count-digit">94</div>
+                    <div class="count-title">Succesed Visitor</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="count-area-content">
+                    <div class="count-digit">126</div>
+                    <div class="count-title">Current Subscriber</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-12">
+                  <div class="count-area-content new-students">
+                    <div class="count-digit">234</div>
+                    <div class="count-title">New Subscriber</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="count-area-content">
+                    <div class="count-digit">32</div>
+                    <div class="count-title">Awards</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 align-self-center">
+          <div class="video">
+            <a href="https://www.youtube.com/watch?v=0MNwwEW1mu8&t=46s" target="_blank"><img src="assets/images/play-icon.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-us" id="contact" name='contact'>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 align-self-center">
+          <div class="row">
+            <div class="col-lg-12">
+              <form id="contact" action="" method="post" data-form>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2>Let's get in touch</h2>
+                  </div>
+                  <div class="col-lg-6">
+                    <fieldset>
+                      <label for="firstName" style="display: none;">First Name</label><input name="name" type="text" id="firstName" placeholder="YOURNAME.....*"  data-firstName>
+                       <div class="errorMessageShowDiv">
+                        <p class="errorMessageShow"> </p></div>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-6">
+                    <fieldset>
+                    <label for="lastName" style="display: none;">Last Name</label>  <input name="lastName" type="text" id="lastName" placeholder="LASTNAME.....*" data-lastName>
+                     <div class="errorMessageShowDiv">
+                        <p class="errorMessageShow"></p></div>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-8">
+                    <fieldset>
+                    <label for="email" style="display: none;">Email Address</label> <input name="email" type="email" id="email" placeholder="YOUR EMAIL..." data-email>
+                     <div class="errorMessageShowDiv">
+                        <p class="errorMessageShow"></p></div>
+                  </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <label for="message" style="display: none;">message</label>
+                      <textarea name="message" type="text" class="form-control" id="message" placeholder="YOUR MESSAGE..."  data-message></textarea>
+                      <div class="errorMessageShowDiv">
+                        <p class="errorMessageShow"></p></div>
+                    </fieldset>
+                  </div>
+                   <div class="g-recaptcha" data-sitekey="6LdOyqAeAAAAAHWOcMHZgySjzQfKkDnqvCmqJyA_"></div>
+      <br/>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button type="submit" onclick="sendEmail()" id="form-submit" class="button" data-button>SEND MESSAGE NOW</button>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="right-info">
+            <ul>
+              <li>
+                <h6 style="color:#fff;" class="findMe">Find me on the web as well:</h6>
+              </li>
+              <li>
+               <a href="https://www.youtube.com/c/MRVideoParty" target="_blank"> <h2><i class="fa-brands fa-youtube fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; "></i> &nbsp;YouTube</h2> </a>
+                <span>Click to  Subscribe..</span>
+              </li>
+              <li>
+               <a href="https://twitter.com/MashhoodRajpoot" target="_blank"> <h2><i class="fa-brands fa-twitter fa-flip" style="--fa-flip-x: 2; --fa-flip-x: 0; --fa-animation-duration: 3s; " ></i> &nbsp;Twitter</h2> </a>
+                  <span>Click to Follow..</span>
+              </li>
+              <li>
+               <a href="https://github.com/MashhoodRajput" target="_blank"> <h2><i class="fa-brands fa-github fa-beat" style="--fa-beat: 2;--fa-animation-duration: 1s; " ></i> &nbsp;GitHub</h2> </a>
+                <span>Click to Follow..</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Copyright © 2022 MR Video Party., Ltd. All Rights Reserved.
+          <br>Design: <a href="https://github.com/MashhoodRajput" target="_parent" title="free css templates">MashhoodRajput</a></p>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/Soon.js"></script>
+    <script src="assets/js/web.js"></script>
+    <script src="assets/js/awesome.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        //according to loftblog tut
+        $('#navbar li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+          e.preventDefault();
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+
+        function sendEmail(){
+        var param = {
+            from_name : document.querySelector('[data-firstName]').value,
+            last_name : document.querySelector('[data-lastName]').value,
+            email_id : document.querySelector('[data-email]').value,
+            message : document.querySelector('[data-message]').value,
+        }
+        emailjs.send('service_dp10slc', 'template_ni36bay', param).then(function(rest){
+            alert('Hi! Sweet We have Contact you Very Soon.')
+        })
+        }
+
+    </script>
+</body>
+</html>
